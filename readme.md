@@ -1,6 +1,7 @@
-# Roblox Handle Closer
+# Roblox Multi-Instance
+<img width="1341" height="695" alt="image" src="https://github.com/user-attachments/assets/d2d7a137-97d8-4e17-bf23-0bd7e674f5a6" />
 
-This program automatically finds `RobloxPlayerBeta.exe` processes and closes the handle named `\Sessions\7\BaseNamedObjects\ROBLOX_singletonEvent`. It checks every minute for any matching processes.
+This program automatically finds `RobloxPlayerBeta.exe` processes and closes the handle named `\Sessions\*\BaseNamedObjects\ROBLOX_singletonEvent`. It checks every minute for any matching processes.
 
 ## Requirements
 
