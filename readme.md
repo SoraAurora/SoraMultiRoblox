@@ -7,12 +7,6 @@ Roblox only allows one instances of roblox on a computer at any point of time , 
 
 So this code js automatically finds `RobloxPlayerBeta.exe` processes and closes the handle named `\Sessions\*\BaseNamedObjects\ROBLOX_singletonEvent`. It checks every 15 for any matching processes.
 
-## Requirements
-
-- Windows operating system
-- .NET Framework (comes with Windows)
-- Administrator privileges
-
 ## How to Use
 
 1. Compile
