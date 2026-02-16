@@ -1,7 +1,11 @@
 # Roblox Multi-Instance
 <img width="1341" height="695" alt="image" src="https://github.com/user-attachments/assets/d2d7a137-97d8-4e17-bf23-0bd7e674f5a6" />
 
-This program automatically finds `RobloxPlayerBeta.exe` processes and closes the handle named `\Sessions\*\BaseNamedObjects\ROBLOX_singletonEvent`. It checks every minute for any matching processes.
+Roblox only allows one instances of roblox on a computer at any point of time , can be bypass by closing a handled called 
+
+`\Sessions\*\BaseNamedObjects\ROBLOX_singletonEvent` 
+
+So this code js automatically finds `RobloxPlayerBeta.exe` processes and closes the handle named `\Sessions\*\BaseNamedObjects\ROBLOX_singletonEvent`. It checks every 15 for any matching processes.
 
 ## Requirements
 
@@ -17,13 +21,6 @@ This program automatically finds `RobloxPlayerBeta.exe` processes and closes the
 2. Navigate to the folder containing `main.cs`
 3. Run: `csc /out:main.exe main.cs`
 4. Run: `main.exe`
-
-## What It Does
-
-- **Monitors**: Checks for RobloxPlayerBeta.exe processes every 60 seconds
-- **Scans**: Looks through all handles owned by each Roblox process
-- **Closes**: When it finds the `ROBLOX_singletonEvent` handle, it closes it
-- **Logs**: Displays timestamped messages showing its activity
 
 ## Output 
 
